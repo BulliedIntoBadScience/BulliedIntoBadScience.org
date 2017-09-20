@@ -1,0 +1,22 @@
+## Site settings
+
+locale: "en-GB"
+title: BulliedIntoBadScience
+name: BulliedIntoBadScience
+description: Campaign for an ethical and open research environment
+## email: your-email@example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.bulliedintobadscience.org" 
+## twitter_username: jekyllrb
+github_username:  BulliedIntoBadScience
+
+
+## Build settings
+
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+##  - jekyll-feed
+paginate: 10
+
+
