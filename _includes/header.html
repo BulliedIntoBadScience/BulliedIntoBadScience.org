@@ -37,6 +37,13 @@
 	  {% assign current = page.url | downcase | split: '/' %}
 	  <li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
 	  <li {% if current[1] == 'letter' %}class="current"{% endif %}><a href="{{ site.baseurl }}/letter">The letter</a></li>
+	  <!-- <li> -->
+	  <!--   <a href="{{ site.baseurl }}/letter">The letter</a> -->
+	  <!--   <ul> -->
+	  <!--     <li><a href="{{ site.baseurl }}/letter/index.html#letter">The letter</a></li> -->
+	  <!--     <li><a href="{{ site.baseurl }}/letter/index.html#actions">Action points</a></li> -->
+	  <!--   </ul> -->
+	  <!-- </li> --> 	      	  
 	  <li {% if current[1] == 'signatories' %}class="current"{% endif %}><a href="{{ site.baseurl }}/signatories">Signatories</a></li>
 	  <li {% if current[1] == 'supporters' %}class="current"{% endif %}><a href="{{ site.baseurl }}/supporters">Supporters</a></li>
 	  <!-- <li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li> -->
@@ -62,7 +69,7 @@
 	      <!-- 	</ul> -->
 	      <!-- </li> -->
 	    </ul>
-	  </li>	  
+	  </li>
 	</ul>
       </nav>
 
