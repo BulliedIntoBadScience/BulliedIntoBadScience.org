@@ -15,7 +15,7 @@ layout: default
 	    <header class="major">
 	      <h2>The Blog</h2>
 	    </header>
-	    {% for post in site.posts offset %}
+	    {% for post in site.posts offset: 0 limit: 100 %}	    
 	    <div class="row">
 	      <section class="12u">
 		<div class="box post">
