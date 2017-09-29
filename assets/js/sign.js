@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#tab").DataTable( {
+    $("#tab").DataTable({
 	data: tab,
 	pageLength: 2,
 	searching: false,
@@ -17,5 +17,26 @@ $(document).ready(function() {
 	    { data: 'Action 8' }
 	]
     });
-});
 
+    $("#an").DataTable({
+	data: an,
+	pageLength: 5,
+	"lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
+	columns: [
+	    { data: 'anecdote' }
+	]
+    });
+
+    var ecr = $("#sign").DataTable({
+	data: sign,
+	ordering: false,
+	columns: [
+	    { data: 'Title and Name' },
+	    { data: 'Title' },
+	    { data: 'Department and Institution' }
+	]
+    });
+    
+    var nr = ecr.column(0).data().length;
+    document.querySelector('#nr').innerHTML = nr;
+});

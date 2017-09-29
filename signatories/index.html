@@ -19,13 +19,34 @@ layout: default
 	    <header>
 	      <h2>Signatories</h2>
 	    </header>
+
+	    <p>If you are an ECR (PhD student, Post-doc, including
+	    researchers in industry and those that are unemployed,
+	    Lecturer, Reader) and want to join the
+	    campaign: <b><a ref="http://bit.ly/BulliedIntoBadScience">sign
+	    the letter</a></b>.</p>
 	    
 	    <!-- <span class="image featured"><img src="{{ site.baseurl }}/assets/images/banner.jpg" alt="" /></span> -->
 
-	    <p>The first table below show the count and percentage of
-	    ERCs who voted in favour of each of our 8 action
-	    points.</p>
+	    <p>There are currently <span id="nr"></span> early career
+	      researchers who have signed the campaing.</p>
 
+	      <table id="sign">
+		<thead>
+		  <tr>
+		    <td><b>Name</b></td>
+		    <td><b>Title</b></td>
+		    <td><b>Institution</b></td>
+		  </tr>
+		<thead>
+	      </table>	
+
+	      <hr>
+	      
+	    <p>Out of all those that signed, the vast majority have
+	      voted in favour of our actions; the table below show the
+	      count and percentage of ERCs who voted in favour of each
+	      of our 8 action points.</p>
 
 	    <table id="tab">
 	      <thead>
@@ -42,6 +63,14 @@ layout: default
               <thead>
 	    </table>	
 
+	    <hr>
+	    
+	    <p> We have collected anectodes from the ECRs who filled
+	      out the survey - click on Details below.</p>
+
+	    <details>	    
+	      <table id="an"></table>
+	    </details>
 	    
 	  </article>
 	  
@@ -55,4 +84,6 @@ layout: default
 </section>			
 
 <script type="text/javascript" src="../data/actions.json"></script>
+<script type="text/javascript" src="../data/sign.json"></script>
+<script type="text/javascript" src="../data/an.json"></script>
 <script type="text/javascript" src="../assets/js/sign.js"></script>
