@@ -3,6 +3,9 @@ title: Arcana
 layout: default
 ---
 
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">  
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+
 <!-- Main -->
 <section class="wrapper style1">
   <div class="container">
@@ -14,17 +17,32 @@ layout: default
 	  
 	  <article>
 	    <header>
-	      <h2>Signatores</h2>
+	      <h2>Signatories</h2>
 	    </header>
 	    
-	    <span class="image featured"><img src="{{ site.baseurl }}/assets/images/banner.jpg" alt="" /></span>
+	    <!-- <span class="image featured"><img src="{{ site.baseurl }}/assets/images/banner.jpg" alt="" /></span> -->
 
-	    <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. 
-	      Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. 
-	      Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi 
-	      consequat etiam lorem ipsum dolor sit amet nullam.</p>
+	    <p>The first table below show the count and percentage of
+	    ERCs who voted in favour of each of our 8 action
+	    points.</p>
+
+
+	    <table id="tab">
+	      <thead>
+		<tr>
+		  <td><b>Action 1</b></td>
+		  <td><b>Action 2</b></td>
+		  <td><b>Action 3</b></td>
+		  <td><b>Action 4</b></td>
+		  <td><b>Action 5</b></td>
+		  <td><b>Action 6</b></td>
+		  <td><b>Action 7</b></td>
+		  <td><b>Action 8</b></td>
+		</tr>
+              <thead>
+	    </table>	
+
 	    
-
 	  </article>
 	  
 	</div>
@@ -35,3 +53,6 @@ layout: default
     </div>
   </div>
 </section>			
+
+<script type="text/javascript" src="../data/actions.json"></script>
+<script type="text/javascript" src="../assets/js/sign.js"></script>
