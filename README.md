@@ -1,3 +1,16 @@
+## Introduction
+
+This repository contains the new Bullied Into Bad Science webpage,
+that is currently being developed using the Jekyll framework. The
+current website is available at
+http://www.BulliedIntoBadScience.org. We hope the roll out the new
+page by the end of October.
+
+## Contributions
+
+If you would like to help, please open an issue or contact
+[Laurent](https://lgatto.github.io/). 
+
 ## Licence
 
 All material is available under a creative common
