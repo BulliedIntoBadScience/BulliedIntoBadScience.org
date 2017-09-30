@@ -23,3 +23,6 @@
  Für Personen welche bereits etablierte Wissenschaftler sind, führen
  wir eine separate Liste: hier ist das Formular um Unterstützer zu
  werden
+
+- The anectodes should be printed as quotes, possibly with a next/prev
+  button.
