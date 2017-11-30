@@ -1,5 +1,5 @@
 ---
-title: Hello world 4
+title: A new BulliedIntoBadScience website
 featured: /assets/images/pic01.jpg
 layout: post
 ---
