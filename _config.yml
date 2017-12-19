@@ -13,7 +13,7 @@ github_username:  BulliedIntoBadScience
 ## Build settings
 
 markdown: kramdown
-plugins:
+plugins_dir:
   - jekyll-paginate
 ##  - jekyll-feed
 paginate: 10
