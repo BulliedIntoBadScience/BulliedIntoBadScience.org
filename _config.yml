@@ -19,4 +19,4 @@ plugins:
 ##  - jekyll-feed
 paginate: 10
 
-
+root: /
