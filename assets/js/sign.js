@@ -37,7 +37,7 @@ $(document).ready(function() {
 	]
     });
     
-    var necr = ecr.column(0).data().length;
-    document.querySelector('#necr').innerHTML = necr;
+    // var necr = ecr.column(0).data().length;
+    // document.querySelector('#necr').innerHTML = necr;
     
 });
