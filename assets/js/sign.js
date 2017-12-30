@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#tab").DataTable({
+    var actab = $("#tab").DataTable({
 	data: tab,
 	pageLength: 2,
 	searching: false,
@@ -18,14 +18,14 @@ $(document).ready(function() {
 	]
     });
 
-    $("#an").DataTable({
-	data: an,
-	pageLength: 5,
-	"lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
-	columns: [
-	    { data: 'anecdote' }
-	]
-    });
+    // var antab = $("#an").DataTable({
+    // 	data: an,
+    // 	pageLength: 5,
+    // 	"lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
+    // 	columns: [
+    // 	    { data: 'anecdote' }
+    // 	]
+    // });
 
     var ecr = $("#sign").DataTable({
 	data: sign,
@@ -37,6 +37,7 @@ $(document).ready(function() {
 	]
     });
     
-    var nr = ecr.column(0).data().length;
-    document.querySelector('#nr').innerHTML = nr;
+    var necr = ecr.column(0).data().length;
+    document.querySelector('#necr').innerHTML = necr;
+    
 });
