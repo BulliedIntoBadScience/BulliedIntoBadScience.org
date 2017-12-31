@@ -10,8 +10,7 @@ $(document).ready(function() {
 	]
     });
     
-    var nsupp = suptab.column(0).data().length;
-    document.querySelector('#nsupp').innerHTML = nsupp;
-;
+    // var nsupp = suptab.column(0).data().length;
+    // document.querySelector('#nsupp').innerHTML = nsupp;
 });
 
