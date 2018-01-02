@@ -28,10 +28,8 @@ $(document).ready(function() {
     
     if (win.match('supporters')) {
 	document.getElementById('n').innerHTML = suptab.column(0).data().length;
-	console.log(suptab.column(0).data().length);	
     } else if (win.match('signatories')) {
 	document.getElementById('n').innerHTML = ecr.column(0).data().length;
-	console.log(ecr.column(0).data().length);
     } 
     
     var actab = $("#tab").DataTable({
