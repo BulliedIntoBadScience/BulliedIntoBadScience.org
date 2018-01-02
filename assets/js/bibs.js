@@ -24,6 +24,7 @@ $(document).ready(function() {
     });
 
     var win = window.location.pathname;
+    console.log(win);
     
     if (win == '/supporters/') {
 	document.getElementById('n').innerHTML = suptab.column(0).data().length;
