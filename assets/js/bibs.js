@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+    var version = '0.1.0';
+    console.log("Welcome to the Bullied Into Bad Science page version "+version);
+    
     var suptab = $("#supp").DataTable( {
 	data: supp,
 	columns: [
