@@ -1,6 +1,6 @@
 ---
 title: A new BulliedIntoBadScience website
-featured: /assets/images/pic01.jpg
+featured: /assets/images/old_site_screenshot.png
 layout: post
 ---
 
