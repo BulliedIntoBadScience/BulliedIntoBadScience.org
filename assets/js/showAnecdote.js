@@ -18,4 +18,4 @@ containerElement.appendChild(anecdoteElement);
 containerElement.appendChild(linkElement);
 sectionElement.appendChild(containerElement);
 
-document.getElementById('banner').insertAdjacentElement('afterend', sectionElement);
+document.getElementById('anecdoteSample').appendChild(sectionElement);
