@@ -28,7 +28,7 @@ body.is-loading * {
 }
 
 body, input, select, textarea {
-    color: #474747;
+    color: #474747;  /* Change text colour here */
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16pt;
     font-weight: 300;
@@ -297,7 +297,7 @@ label {
 .icon.major {
     text-align: center;
     cursor: default;
-    background-color: #6c8672;
+    background-color: #6c8672; /* change icon colour here */
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
     background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -449,7 +449,7 @@ input[type="button"],
     -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    background-color: #6c8672;
+    background-color: #6c8672; /* Change button background colours here */
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
     background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -457,7 +457,7 @@ input[type="button"],
     background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
     border-radius: 5px;
     border: 0;
-    color: white;
+    color: white; /* Change botton text colour here */
     cursor: pointer;
     display: inline-block;
     padding: 0 1.5em;
@@ -473,7 +473,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-    background-color: #50c8fb;
+    background-color: #50c8fb; /* Change button background colour on hovering here */
     color: white !important;
 }
 
@@ -563,11 +563,11 @@ input[type="button"].small,
 #header {
     text-align: center;
     padding: 3em 0 0 0;
-    background-color: #fff;
+    background-color: #fff; /* Header background colour */
     background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-    background-position: top left,					top left,					top left;
-    background-size: 100% 6em,					100% 6em,					auto;
-    background-repeat: no-repeat,					no-repeat,					repeat;
+    background-position: top left, top left, top left;
+    background-size: 100% 6em, 100% 6em, auto;
+    background-repeat: no-repeat, no-repeat, repeat;
 }
 
 #header h1 {
@@ -583,7 +583,7 @@ input[type="button"].small,
 
 #nav {
     cursor: default;
-    background-color: #333;
+    background-color: #333; /* Navigation bar background colour */
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
     background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -597,7 +597,7 @@ input[type="button"].small,
     display: block;
     width: 100%;
     height: 0.75em;
-    background-color: #6c8672;
+    background-color: #6c8672; /* Colour of line under the navigation bar */
     background-image: url("images/bg01.png");
 }
 
@@ -664,7 +664,7 @@ input[type="button"].small,
 /* Dropotron */
 
 .dropotron {
-    background-color: #333;
+    background-color: #333; /* Navigation bar dropdown menu */
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
     background-image: -o-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
@@ -718,7 +718,7 @@ input[type="button"].small,
     width: 100%;
     background: #212121;
     background: rgba(27, 27, 27, 0.75);
-    color: #fff;
+    color: #fff; /* text in banner on top of figure, under navigation panel */
     padding: 1.5em 0;
 }
 
